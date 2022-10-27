@@ -1,0 +1,37 @@
+{
+  "intents" : [
+    {
+      "tag" :"greeting",
+      "patterns":[
+        "hi",
+        "hey",
+        "What's up?",
+        "hey how are you doing?"
+      ],
+      "responses": [
+        "hey sir!",
+        "what can i do for you?"
+      ]
+    },
+    {
+      "tag" :"who",
+      "patterns":[
+        "who are you?",
+        "what is your name?"
+      ],
+      "responses": [
+        "i am mobobot"
+      ]
+    },
+    {
+      "tag" : "file",
+      "patterns": [
+        "create file"
+      ],
+      "responses": [
+
+
+      ]
+    }
+  ]
+}
